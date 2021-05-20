@@ -12,7 +12,7 @@ public class bubbleSort {
 			System.out.print(sortedArr[i] + ",");
 		
 		int[] multArr = mult(sortedArr, n);
-		
+		//print mutiplied array
 		System.out.println();
 		for (int i = 0; i < multArr.length; i++)
 			System.out.print(multArr[i] + ",");
@@ -31,7 +31,7 @@ public class bubbleSort {
         
         return arr;
 	}
-	
+	//hello github
 	public static int[] mult(int[] arr, int n) {
 		for (int i = 0; i < arr.length; i++) 
 			arr[i] = arr[i] * n;
